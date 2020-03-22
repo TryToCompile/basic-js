@@ -1,4 +1,8 @@
-module.exports = function getSeason(/* date */) {
-  throw 'Not implemented';
-  // remove line with error and write your code here
+function getSeason(date) {
+    month = date.getMonth();
+    console.log(month);
+    
+  return month;
 };
+
+getSeason(new Date(488, 1, 4, 15, 48, 52, 400));
